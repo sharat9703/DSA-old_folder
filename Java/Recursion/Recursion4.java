@@ -2,8 +2,8 @@
 
 public class Recursion4 {
     public static int fib(int n) {
-       int fibo =0;
-        if(n==1){
+       int fibo;
+        if(n<=1){
           fibo=0;
           return fibo;
         }
@@ -17,6 +17,6 @@ public class Recursion4 {
         }
     }
     public static void main(String[] args) {
-        System.out.println(fib(7));
+        System.out.println(fib(0));
     }
 }
