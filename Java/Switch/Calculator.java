@@ -8,7 +8,7 @@ public static void main(String[] args) {
     System.out.println("enter two numbers:\n");
     int a = in.nextInt();
     int b = in.nextInt();
-    System.out.println("\nChoose among the following:\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Modulo");
+    System.out.println("\nChoose among the following:\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Modulo");
     int c = in.nextInt();
     switch(c){
         case 1:  
@@ -42,8 +42,8 @@ public static int subtraction(int x, int y) {
 public static int multiplication(int x, int y) {
     return x*y;
 }
-public static int division(int x, int y) {
-    return x/y;
+public static float division(int x, int y) {
+    return (float)x/y;
 }
 public static int modulo(int x, int y) {
     return x%y;
