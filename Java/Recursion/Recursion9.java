@@ -3,7 +3,7 @@ import java.lang.reflect.Array;
 public class Recursion9 {
     public static void main(String[] args) {
         int[] ar = { 13, 221, 43, 764, 345, 986, 137 };
-        int[] a
+        
         for (int i = 0; i < ar.length-1 ; i++) {//simple bubble sort
             for (int j = 0; j < ar.length - i-1 ; j++) {
                 if (ar[j] > ar[j + 1]) {
