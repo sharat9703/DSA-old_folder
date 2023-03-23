@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class PrintKeyPadCombinations {
     public static String[] keypad=  {".","abc","def","ghi","jkl","mno","pqrs","tu","vwx","yz"};
     public static void keypadCombinations(String str, int idx, String combination) {
